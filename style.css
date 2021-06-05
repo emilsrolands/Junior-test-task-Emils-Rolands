@@ -1,0 +1,92 @@
+html {
+  font-size: 15px;
+  background-color: rgb(235, 233, 233);
+}
+
+body {
+  margin: 0;
+
+  font-family: 'Nunito', sans-serif;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+/* Base */
+div#container {
+  width: 500px;
+  margin: 0px auto 0px auto;
+}
+
+.box {
+  width: 400px;
+  height: 550px;
+
+  padding: 40px;
+  margin-top: 100px;
+
+  border: 1px solid rgb(150, 150, 150);
+  border-radius: 10px;
+  background-color: white;
+}
+
+/* Output window */
+.result-window {
+  width: 400px;
+  height: 270px;
+
+  margin-bottom: 35px;
+
+  border: 1px solid rgb(150, 150, 150);
+  background-color: white;
+}
+
+.text-output {
+  margin: -50px 0 0 0;
+
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+/* Input form */
+.input {
+  display: block;
+  width: 130px;
+  margin: 15px 0 0px 45px;
+  padding: 10px;
+
+  border-radius: 6px;
+  border: 2px solid rgb(161, 161, 161);
+}
+
+.input:focus {
+  outline: 0;
+
+  border-color: rgb(65, 65, 95);
+}
+
+/* Button */
+.btn-calculate {
+  width: 110px;
+  padding: 8px;
+  margin: 40px 0 0 45px;
+
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  font-size: 0.8rem;
+
+  cursor: pointer;
+  background-color: rgb(65, 65, 95);
+  border-radius: 5px;
+  border-color: rgb(57, 68, 114);
+
+  transition: 0.15s linear;
+}
+
+.btn-calculate:hover {
+  background-color: rgb(52, 52, 78);
+}
+
+.btn-calculate:active {
+  background-color: rgb(40, 40, 61);
+}
